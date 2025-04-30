@@ -60,3 +60,19 @@ python code/train.py --opt code/confs/LOLv2-synthetic.yml
 ## Acknowledgement
 Part of the code is adapted from previous works: [BasicSR](https://github.com/XPixelGroup/BasicSR) and [LLFlow](https://github.com/wyf0912/LLFlow) We thank all the authors for their contributions.
 Please contact me if you have any questions at: tuhanbo@mail.dlut.edu.cn
+
+## 📄 Citation
+
+If you find this work useful, please cite our paper:
+
+**Title:** *RetinexFlow: Retinex-based Conditional Normalizing Flow for Low-light Image Enhancement*  
+**Journal:** *The Visual Computer*, Springer, 2025.
+
+```bibtex
+@article{xu2024retinexflow,
+  title={RetinexFlow: Retinex-based Conditional Normalizing Flow for Low-light Image Enhancement},
+  author={Xu, Min and Tu, Hanbo and Yue, Ziyu and Su, Zhixun},
+  journal={The Visual Computer},
+  year={2025},
+  publisher={Springer}
+}

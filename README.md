@@ -41,9 +41,9 @@ python code/test.py --opt code/confs/LOLv2-synthetic.yml
 
 Edit paths in the following training configs, You can also create your own configs for your own dataset.
 ```bash
-.\confs\LOL_smallNet.yml
-.\confs\LOL-pc.yml
-.\confs\LOLv2-pc.yml
+code/confs/LOL-pc.yml
+code/confs/LOLv2-real.yml
+code/confs/LOLv2-synthetic.yml
 ```
 Make sure to update:
 ```python

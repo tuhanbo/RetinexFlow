@@ -6,7 +6,7 @@ By Min Xu, Hanbo Tu, Ziyu Yue, Zhixun Su
 ### Evaluation on LOL
 ![Evaluation on LOL](images/experience_result.png)
 ### Visual Results
-![Visual comparison with state-of-the-art low-light image enhancement methods on LOLv1 dataset and LOLv2 dataset.](images/experience_result.png)
+![Visual comparison with state-of-the-art low-light image enhancement methods on LOLv1 dataset and LOLv2 dataset.](images/visual_result.png)
 ## Dependencies and Installation
 ```
 cd RetinexFlow

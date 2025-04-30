@@ -69,7 +69,7 @@ If you find this work useful, please cite our paper:
 **Journal:** *The Visual Computer*, Springer, 2025.
 
 ```bibtex
-@article{xu2024retinexflow,
+@article{xu2025retinexflow,
   title={RetinexFlow: Retinex-based Conditional Normalizing Flow for Low-light Image Enhancement},
   author={Xu, Min and Tu, Hanbo and Yue, Ziyu and Su, Zhixun},
   journal={The Visual Computer},

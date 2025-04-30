@@ -2,8 +2,8 @@
 By Min Xu, Hanbo Tu, Ziyu Yue, Zhixun Su
 ## Pipeline
 ![Framework](images/framework.png)
-## Experimental Results results
-### Quantitative results
+## Experimental Results 
+### Quantitative Results
 #### Evaluation on LOL
 ![Evaluation on LOL](images/experience_result.png)
 ### Visual Results
@@ -15,18 +15,43 @@ conda create -n RetinexFlow python=3.8
 conda activate RetinexFlow
 pip install -r code/requirements.txt
 ```
-## Download the datasets
+## Download the Datasets
 LOL: Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu. "Deep Retinex Decomposition for Low-Light Enhancement", BMVC, 2018. [[Baiduyun (extracted code: sdd0)]](https://pan.baidu.com/s/1spt0kYU3OqsQSND-be4UaA) [[Google Drive]](https://drive.google.com/file/d/18bs_mAREhLipaM2qvhxs7u7ff2VSHet2/view?usp=sharing) <br>
 LOL-v2 (the extension work): Wenhan Yang, Haofeng Huang, Wenjing Wang, Shiqi Wang, and Jiaying Liu. "Sparse Gradient Regularized Deep Retinex Network for Robust Low-Light Image Enhancement", TIP, 2021. [[Baiduyun (extracted code: l9xm)]](https://pan.baidu.com/s/1U9ePTfeLlnEbr5dtI1tm5g) [[Google Drive]](https://drive.google.com/file/d/1dzuLCk9_gE2bFF222n3-7GVUlSVHpMYC/view?usp=sharing) <br> <br>
 ## Pre-trained Models
 Download the pre-trained models and place them in `./pretrained_models/`: You can download our pre-trained model from [[Baiduyun (extracted code: tthb)]](https://pan.baidu.com/s/1WwvDgpTSqtKwrMzLxeT4hw)
-## Test model
+## Test
+1.Test Settings
+
+Edit the corresponding paths in config files under `./confs`
+```
+dataroot_unpaired # needed for testing with unpaired data
+dataroot_GT # needed for testing with paired data
+dataroot_LR # needed for testing with paired data
+model_path
+```
+2.Run Inference
 ```
 python code/test.py --opt code/confs/LOL-pc.yml
 python code/test.py --opt code/confs/LOLv2-real.yml
 python code/test.py --opt code/confs/LOLv2-synthetic.yml
 ```
-## Train model
+## Train
+1.Modify Settings
+
+Edit paths in the following training configs, You can also create your own configs for your own dataset.
+```bash
+.\confs\LOL_smallNet.yml
+.\confs\LOL-pc.yml
+.\confs\LOLv2-pc.yml
+```
+Make sure to update:
+```python
+datasets.train.root
+datasets.val.root
+gpu_ids: [0] # Our model can be trained using a single GPU with memory<20GB. You can also train the model using multiple GPUs by adding more GPU ids in it.
+```
+2. Run Training
 ```
 python code/train.py --opt code/confs/LOL-pc.yml
 python code/train.py --opt code/confs/LOLv2-real.yml

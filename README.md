@@ -2,8 +2,9 @@
 By Min Xu, Hanbo Tu, Ziyu Yue, Zhixun Su
 ## Pipeline
 ![Framework](images/framework.png)
-## Quantitative results
-### Evaluation on LOL
+## Experimental Results results
+### Quantitative results
+#### Evaluation on LOL
 ![Evaluation on LOL](images/experience_result.png)
 ### Visual Results
 ![Visual comparison with state-of-the-art low-light image enhancement methods on LOLv1 dataset and LOLv2 dataset.](images/visual_result.png)

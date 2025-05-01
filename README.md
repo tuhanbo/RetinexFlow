@@ -49,7 +49,7 @@ Make sure to update:
 ```python
 datasets.train.root
 datasets.val.root
-gpu_ids: [0] # Our model can be trained using a single GPU with memory<20GB. You can also train the model using multiple GPUs by adding more GPU ids in it.
+gpu_ids: [0] # Our model can be trained using a single GPU with memory>20GB. You can also train the model using multiple GPUs by adding more GPU ids in it.
 ```
 2. Run Training
 ```

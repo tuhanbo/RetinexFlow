@@ -1,7 +1,5 @@
-triton==2.3.0
 einops==0.8.0
 lpips==0.1.4
-rotary-embedding-torch==0.6.2
 
 numpy==1.24.4
 scipy==1.10.1

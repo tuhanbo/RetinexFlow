@@ -33,7 +33,7 @@ pip install -r code/requirements.txt
 LOL: Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu. "Deep Retinex Decomposition for Low-Light Enhancement", BMVC, 2018. [[Baiduyun (extracted code: sdd0)]](https://pan.baidu.com/s/1spt0kYU3OqsQSND-be4UaA) [[Google Drive]](https://drive.google.com/file/d/18bs_mAREhLipaM2qvhxs7u7ff2VSHet2/view?usp=sharing) <br>
 LOL-v2 (the extension work): Wenhan Yang, Haofeng Huang, Wenjing Wang, Shiqi Wang, and Jiaying Liu. "Sparse Gradient Regularized Deep Retinex Network for Robust Low-Light Image Enhancement", TIP, 2021. [[Baiduyun (extracted code: l9xm)]](https://pan.baidu.com/s/1U9ePTfeLlnEbr5dtI1tm5g) [[Google Drive]](https://drive.google.com/file/d/1dzuLCk9_gE2bFF222n3-7GVUlSVHpMYC/view?usp=sharing) <br> <br>
 ## Pre-trained Models
-Download the pre-trained models and place them in `./pretrained_models/`: You can download our pre-trained model from [[Baiduyun (extracted code: tthb)]](https://pan.baidu.com/s/1WwvDgpTSqtKwrMzLxeT4hw)
+Download the pre-trained models and place them in `./pretrained_models/`: You can download our pre-trained model from [[Baiduyun (extracted code: tthb)]](https://pan.baidu.com/s/1_sGRjqN-Zkmx9h6RLzv91Q)
 ## Test
 1.Test Settings
 

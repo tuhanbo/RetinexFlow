@@ -9,10 +9,24 @@ By Min Xu, Hanbo Tu, Ziyu Yue, Zhixun Su
 ### Visual Results
 ![Visual comparison with state-of-the-art low-light image enhancement methods on LOLv1 dataset and LOLv2 dataset.](images/visual_result.png)
 ## Dependencies and Installation
-```
+### Create Environment
+```bash
 cd RetinexFlow
 conda create -n RetinexFlow python=3.8
 conda activate RetinexFlow
+```
+### Install PyTorch
+Select the appropriate installation command based on your CUDA version. For example
+#### CUDA 11.8
+```bash
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
+```
+#### CPU-only
+```bash
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0
+```
+### Install Other Dependencies
+```bash
 pip install -r code/requirements.txt
 ```
 ## Download the Datasets

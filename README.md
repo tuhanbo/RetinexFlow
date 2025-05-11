@@ -17,7 +17,7 @@ conda activate RetinexFlow
 ```
 ### Install PyTorch
 Select the appropriate installation command based on your CUDA version. For example
-#### CUDA 11.8
+#### CUDA 11.8(ours)
 ```bash
 pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
 ```
